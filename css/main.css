@@ -1,13 +1,25 @@
+@-moz-viewport {widthL device-width; scale: 1; }
+@-ms-viewport {widthL device-width; scale: 1; }
+@-o-viewport {widthL device-width; scale: 1; }
+@-webkit-viewport {widthL device-width; scale: 1; }
+@viewport {widthL device-width; scale: 1; }
+
+html{
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 .ball {
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 200px;
-  left: 200px;
   background-color: red;
-  border-radius: 25em;
-}
-
-.html {
-
+  border-radius: 50px;
 }
